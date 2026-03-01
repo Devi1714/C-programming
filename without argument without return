@@ -1,0 +1,11 @@
+#include <stdio.h>
+int sum()
+{
+    int a=78, b=25;
+    int sum =a+b;
+    printf("%d",sum );
+}
+int main() {
+printf("calculating the sum ....\n");
+sum();
+}
